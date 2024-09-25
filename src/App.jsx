@@ -1,8 +1,8 @@
 import './App.css'
 import { useState } from 'react'
 import FriendsSection from './Components/Friends/Friends'
-import AddFriendSection from './Components/AddFriends'
-import SplitBill from './Components/splitBill'
+import AddFriendSection from './Components/AddFriends/AddFriends'
+import SplitBill from './Components/splitBill/SplitBill'
 
 export default function App() {
 
