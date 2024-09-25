@@ -25,7 +25,7 @@ export default Index;
 
 
 // Child COponent
-export function Friends ({detail, setSplitBillSection, setSplitBillName, splitBillSection, amountToBeAdded, setAmountToBeAdded,splitBillName}) {
+ export function Friends ({detail, setSplitBillSection, setSplitBillName, splitBillSection, amountToBeAdded, setAmountToBeAdded,splitBillName}) {
 
 // funtion to manage split bill section information
   const SplitBillHandler = () => {
