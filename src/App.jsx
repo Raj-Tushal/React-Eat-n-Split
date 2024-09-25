@@ -58,11 +58,11 @@ export default function App() {
   return (
     <>
       {/* main */}
-      <div className="bg-slate-600 h-screen w-full flex flex-col justify-center items-center text-[#3d4146] ">
+      <div className=" h-screen w-full flex flex-col justify-center items-center text-[#3d4146] ">
         {/* container */}
-            <div className='w-[80%] h-[90%] bg-pink-600 flex max-sm:flex max-sm:flex-col max-sm:w-full max-sm:h-full max-sm:p-2 '>
+            <div className='w-[80%] h-[90%]  flex max-sm:flex max-sm:flex-col max-sm:w-full max-sm:h-full max-sm:p-2 '>
                   {/* left */}
-                  <div className='w-[50%]  h-full flex-col space-y-5 bg-blue-600 p-4 px-24 pt-12 max-sm:w-full max-sm:p-0'> 
+                  <div className='w-[50%]  h-full flex-col space-y-5  p-4 px-24 pt-12 max-sm:w-full max-sm:p-0'> 
                       {/* friends */}
                       <FriendsSection friends={friends} setFriends={setFriends} setSplitBillSection={setSplitBillSection} setSplitBillName={setSplitBillName} splitBillSection={splitBillSection} amountToBeAdded={amountToBeAdded} splitBillName={splitBillName}  />
 
@@ -71,7 +71,7 @@ export default function App() {
 
                   </div>
                   {/* right */}
-                  <div className='w-[50%] h-full bg-pink-300 flex justify-center items-start pt-12 max-sm:w-full max-sm:p-0'> 
+                  <div className='w-[50%] h-full  flex justify-center items-start pt-12 max-sm:w-full max-sm:p-0'> 
                       {/* <SplitBill Component /> */}
                       {splitBillSection===false ? null : <SplitBill selectedFriend={splitBillName} amountToBeAdded={amountToBeAdded} setAmountToBeAdded={setAmountToBeAdded} friends={friends} setFriends={setFriends} splitBillInfoHandler={splitBillInfoHandler} />}
                   </div>

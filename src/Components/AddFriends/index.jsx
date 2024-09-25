@@ -28,7 +28,7 @@ function Index({ addItem }) {
                          </div> */}
 
       {addFriendSection ? (
-       <div className="w-full flex justify-end max-sm:my-5">
+       <div className="w-full flex justify-end max-sm:my-5 my-6">
          <button
           className='bg-[#ffa94d] p-1 text-sm rounded-md font-semi-bold px-4 font-semibold'
           onClick={() => setAddFriendSection(false)}
@@ -37,7 +37,7 @@ function Index({ addItem }) {
         </button>
        </div>
       ) : (
-        <div className="bg-[#fff4e6] space-y-3 w-full rounded-md p-1 max-sm:my-5 ">
+        <div className="bg-[#fff4e6] space-y-3 w-full rounded-md p-1 max-sm:my-5 my-6 ">
           <div className="flex w-full  justify-between items-center">
           <h1 className="text-lg">👩‍👩‍👦Friend Name:</h1>
           <input

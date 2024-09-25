@@ -44,7 +44,7 @@ console.log(selectedFriend,"split")
   };
 
   return (
-    <div className='space-y-4 bg-[#fff4e6] w-[90%] rounded-md h-[70%] max-sm:w-full max-sm:h-full max-sm:p-2 '>
+    <div className='space-y-4 bg-[#fff4e6] w-[90%] rounded-md h-[70%] max-sm:w-full max-sm:h-full max-sm:p-2 p-6 '>
       <div className='flex text-4xl font-bold'>
         <h1 className='max-sm:text-2xl'>Split a bill with {selectedFriend}</h1>
       </div>
