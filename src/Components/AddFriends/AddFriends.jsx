@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-function Index({ addItem }) {
+function AddFriends({ addItem }) {
   const [addFriendSection, setAddFriendSection] = useState(true);
   const [name, setName] = useState("");
   const [image, setImage] = useState("");
@@ -82,4 +82,4 @@ function Index({ addItem }) {
   );
 }
 
-export default Index;
+export default AddFriends;
