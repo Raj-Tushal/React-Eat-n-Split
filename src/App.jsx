@@ -1,6 +1,6 @@
 import './App.css'
 import { useState } from 'react'
-import FriendsSection from './Components/Friends'
+import FriendsSection from './Components/Friends/Friends'
 import AddFriendSection from './Components/AddFriends'
 import SplitBill from './Components/splitBill'
 
